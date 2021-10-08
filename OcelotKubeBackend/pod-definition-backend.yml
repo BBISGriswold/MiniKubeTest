@@ -1,0 +1,12 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: ocelotbackend-pod
+  labels:
+    app: ocelotbackend
+spec:
+  containers:
+    - name: ocelotbackend
+      image: bbisgriwold/ocelotapi:v1-kubetest
+      ports:
+        - containerPort: 80

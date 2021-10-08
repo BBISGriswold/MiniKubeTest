@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: ocelotbackend-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ocelotbackend
+
+  template: 
+    metadata:
+      name: ocelotbackend-pod
+      labels:
+        app: ocelotbackend
+    spec:
+      containers:
+        - name: ocelotbackend
+          image: bbisgriwold/ocelotapi:v1-kubetest
+          ports:
+            - containerPort: 80

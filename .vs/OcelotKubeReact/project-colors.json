@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2be7caee-2ba3-4505-a3fe-e314ae66c450": {
+      "ProjectGuid": "2be7caee-2ba3-4505-a3fe-e314ae66c450",
+      "DisplayName": "OcelotKubeReact (loading...)",
+      "ColorIndex": 0
+    },
+    "907373be-f51f-46b8-a8f9-00311aa8e7ed": {
+      "ProjectGuid": "907373be-f51f-46b8-a8f9-00311aa8e7ed",
+      "DisplayName": "OcelotKubeBackend",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
